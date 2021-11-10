@@ -1,0 +1,123 @@
+/* Home page slider  */
+
+			/* Header shrink Logo Js starts */
+			$(window).scroll(function() {
+				if ($(this).scrollTop()) {
+
+					if ($(this).scrollTop() > 50) {
+						$('.header-sec').addClass("squeezelogo");
+					} else if ($(this).scrollTop() < 50) {
+						$('.header-sec').removeClass("squeezelogo");
+					}
+				} else {
+					$('.header-sec').removeClass("squeezelogo");
+				}
+			});
+			/* Header shrink Logo Js end */
+
+		 $('.navbar-toggle').on('click', function() {
+            $('.header-sec').toggleClass("headbg");
+        });
+       
+		/* for drop down */
+		$('.feature-main').click(function() {    $('.feature-sub').toggleClass('hidemenu');});
+		
+		$(document).ready(function() { 
+		$('.widget-title').click(function(){
+		var a = $(this).next();
+		if(a.is(":visible")) {
+		$(this).next().hide();
+		}
+		else {
+		$(this).next().show();
+		}
+		});
+		});
+		
+
+        var swiper = new Swiper('.swiper-containertext', {
+            //pagination: '.swiper-pagination',
+            nextButton: '.appyslim-arrows-right-arrow-closed',
+            prevButton: '.appyslim-arrows-left-arrow-closed',
+            paginationClickable: false,
+            spaceBetween: 60,
+            centeredSlides: true,
+            //autoplay: 5000,
+            autoResize: false,
+            autoplayDisableOnInteraction: false,
+            loop: true,
+            speed: 600,
+            keyboardControl: true,
+            simulateTouch: false,
+            paginationClickable: true,
+        });
+        var swiper = new Swiper('.swiper-container', {
+            //pagination: '.swiper-pagination',
+            nextButton: '.appyslim-arrows-right-arrow-closed',
+            prevButton: '.appyslim-arrows-left-arrow-closed',
+            paginationClickable: true,
+            slidesPerView: 3,
+            spaceBetween: 50,
+            loop: true,
+            keyboardControl: true,
+            simulateTouch: false,
+            breakpoints: {
+                1024: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                    simulateTouch: false
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                    pagination: '.swiper-pagination'
+                }
+            }
+        });
+        var swiper = new Swiper('.swiper-container-review', {
+            pagination: '.swiper-pagination',
+            nextButton: '.appyslim-arrows-right-arrow-closed',
+            prevButton: '.appyslim-arrows-left-arrow-closed',
+            paginationClickable: false,
+            spaceBetween: 0,
+            centeredSlides: true,
+            //autoplay: 5000,
+            autoResize: false,
+            autoplayDisableOnInteraction: false,
+            loop: true,
+            speed: 600,
+            keyboardControl: true,
+            effect: 'fade',
+            simulateTouch: false,
+            paginationClickable: true,
+        });
+       // new WOW().init();
+	   
+   /* for home app counter */		
+function callCount(id) {
+	var a = document.getElementById(id);
+	var b = parseInt(a.getAttribute("data"));
+	var m = parseInt(a.getAttribute("min"));
+	a.innerHTML = m;
+	var span = setInterval(function(){
+	m = m + 101;
+	a.innerHTML = "<div class='num'>" + m.toString().split('').join("</div><div class='num'>") + "</div>";
+	if(m >= b)  { 
+	m = b;
+	clearInterval(span);
+	}
+	}, 1)
+}
+callCount("incrementalcounter");   
+
+       
+
+   

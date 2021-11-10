@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>TEKNICZ - Startup Tunisienne</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta
+    content="TEKNICZ,Smart home,Startup,Smart industrie,Smart agriculutre ,Domotique,Smart Control"
+    name="keywords">
+  <meta
+    content="SMARTLOGGER est une société spécialisée dans le domaine de l'internet des objets. Nous mettons à votre disposition une large gamme de solutions de monitoring innovantes."
+    name="description">
+  <meta name="author" content="Smart Logger,Aymen Abid Boukadida,BootstrapMade">
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TSDX25L');</script>
+  <!-- End Google Tag Manager -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/responsive.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <!-- Favicons -->
+  <link href="img/smartloggerlogo.png" rel="icon">
+  <!--<link href="img/apple-touch-icon.png" rel="apple-touch-icon">-->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Firebase Configuration -->
+  <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-auth.js"></script>
+  <script src="https://cdn.firebase.com/libs/firebaseui/3.0.0/firebaseui.js"></script>
+
+  <!-- <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-auth.js"></script> -->
+  <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-firestore.js"></script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-messaging.js"></script> -->
+  <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-functions.js"></script>
+  <!--<script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDdy3ZVFnSzpg6N53Gd6ikPjJLeydKdQHw",
+      authDomain: "site-smart-logger.firebaseapp.com",
+      databaseURL: "https://site-smart-logger.firebaseio.com",
+      projectId: "site-smart-logger",
+      storageBucket: "site-smart-logger.appspot.com",
+      messagingSenderId: "238654981849"
+    };
+    firebase.initializeApp(config);
+  </script>-->
+
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="d0c592d3-a3c5-4e0e-a96b-9ad69923aa76";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+</head>
+
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSDX25L" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container-fluid">
+
+      <div id="logo" class="pull-left">
+        <!--Uncomment below if I want to use text logo instead-->
+        <!--<h1>
+          <a href="#intro" >
+            <img class="img-logo" src="img/smartlogger.png" alt="Logo" title="SMART LOGGER"/>
+            <span class="text-logo"><span class="first-logo-part">SMART</span><span class="second-logo-part">LOGGER</span></span>
+          </a>
+        </h1>-->
+
+        <a href="#intro" class="scrollto"><img id="smartlogger-logo" src="img/smartloggerlogo-horizontal.png"
+            alt="Teknicz LOGO" title="SMART LOGGER" /></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <!--<li class="menu-has-children"><a href="#services">Services</a>
+            <ul>
+              <li><a href="#">SMART Irrigation</a></li>
+              <li><a href="https://smart-logger-mcu.firebaseapp.com" target="_blank">SMART Monitoring</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+          </li>-->
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+		  <li><a href="#contact">Contact</a></li>
+          <li><a href="#clients">Interface Thermo-Connect</a></li>
+          <li><a href="contact.html">Commencez</a></li>
+          
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background-image: url('image/portfolio/cc.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 style="text-align:center ;font-size:35px;" >TEKNICZ-THERMO-CONNECT  </h2>
+                <p style=" text-align: center" >Surveillance en temps réel des réfrigérateurs, chambres froides, laboratoires, salles serveur sur Internet avec alarmes par SMS, Email, Télégram et sirène .</p>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('image/portfolio/hh.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 style="text-align:center ;font-size:35px;" >SMART INDUSTRIE 4.0</h2>
+                <div class="text" style="font-size: 15px; color:#ffffff;"> Des solutions sur mesure pour des équipements d'usine connectés: 
+							<ul> 
+							<li>Température</li>
+                            <li>Compteur de production</li>
+							<li>Optimisation de process </li> </ul> </div>
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('image/portfolio/homee.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2  style="text-align:center ;font-size:35px;">LA  DOMOTIQUE LOW COST</h2>
+               <div class="text"   style="font-size: 15px; color:#ffffff;">Etude, Installation et Intégration de solutions domotiques à bas prix.
+ Solutions embarquées chez<br> soi sans cloud avec accès distant.
+Manipulez à distance des scénarios de comportement humain.  </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('image/portfolio/iot.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>LEADER EN SOLUTIONS OBJETS CONNECTES</h2>
+                <p></p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('image/portfolio/houhou.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>SMART CITY</h2>
+                <p>
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('image/portfolio/agg.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>SMART AGRICULTURE</h2>
+                <p>
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <i class="fas fa-angle-left"></i>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <i class="fas fa-angle-right" ></i>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      Featured Services Section
+    ============================-->
+    <section id="featured-services" >
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 box text-center">
+            <img class="flag" src="https://lipis.github.io/flag-icon-css/flags/4x3/tn.svg" alt="Tunisia Flag">
+            <h4 class="title colored-title">Made in Tunisia</h4>
+            <p class="description">Avec beaucoup d’honneur et fierté, nous vous informons que nos solutions
+              technologiques sont développées en Tunisie par des compétences locales.</p>
+          </div>
+
+          <div class="col-lg-4 box box-bg text-center">
+            <i class="fas fa-lightbulb"></i>
+            <h4 class="title colored-title">Be SMART</h4>
+            <p class="description">Nous vous invitons à utiliser nos solutions technologiques S.M.A.R.T : Spécifique,
+              Mesurable, Ambitieux, Réaliste et Temporel.</p>
+          </div>
+
+          <div class="col-lg-4 box text-center">
+            <i class="fas fa-trophy"></i>
+            <h4 class="title colored-title">Approuvé</h4>
+            <p class="description">Depuis sa création SMART LOGGER ne cesse pas à remporter les premiers prix des
+              concours nationaux d’innovation et d’entreprenariat.</p>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #featured-services -->
+
+    <!--==========================
+      About Us Section
+    ============================-->
+
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header wow fadeInUp">
+          <h3>Qui Sommes Nous?</h3>
+          <p><strong> TEKNICZ</strong> Une startup tunisienne.Une expérience de deux ans dans le 
+		  développement des solutions embarquées d'automatisation.Nous offrons des services optimisées
+		  selon vos besoins dans plusieurs secteurs.
+          </p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="fas fa-briefcase"></i></div>
+            <h4 class="title colored-title">Notre Mission</h4>
+            <p class="description">Accélérer la transformation digitale</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="fas fa-handshake"></i></div>
+            <h4 class="title colored-title">Notre But</h4>
+            <p class="description">Votre satisfaction est notre priorité</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="fas fa-clipboard-list"></i></div>
+            <h4 class="title colored-title">Nos Ambitions </h4>
+            <p class="description">Intégrer les nouvelles technologies</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section> <!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services" style="background-image: url('image/portfolio/const.jpg');">  
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Services</h3>
+          <p>C'est la Performance Qui Compte!</p>
+        </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-6 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img src="image/portfolio/labo.jpg" alt="" class="img-fluid"> 
+							       
+							   
+                <div class="logo-container"> <i class="fas fa-thermometer-three-quarters" style="height : 50px;width: 60px; color:#000033;"></i>
+                    </div>
+              </div>
+              <h2 class="title colored-title">THERMO-CONNECT</h2>
+              <p class="sub-title">
+               Suivi et Surveillance en Temps Réel et Notification Instantannée
+              </p>
+              <div class="collapse collapseMobile" id="collapsethermoMobile">
+              <p  class="text"> est un service Internet qui surveille vos réfrigérateurs, chambres froides, laboratoires...
+			  Il utilise les sondes de température sur wifi et vous prévient par Email, SMS, Telegram et Sirène en cas de 
+			  dépassement de température.Pas de logiciel à installer sur vos PC. Un login et un mot de passe vous suffisent
+			  pour accéder à votre plateforme de surveillance, paramétrer vos sondes et vos enregistreurs, vos seuils d'alarmes
+			  et consulter toutes les données enregistrées.Vous accédez à votre plateforme depuis n'importe quel PC Mac, smartphone
+			  ou tablette, sans limite du nombre 'utilisateur, 24h/24, 7j/7.Vous pouvez utiliser TEKNICZ-THERMO-CONNECT sur 
+			  plusieurs sites.  </p>
+                  <img class="image" width="500" height="300"
+                    src="image/portfolio/temp.png">
+                
+              </div>
+              <div class="text-center">
+                <a id="collapseIrrigation" class="btn-collapse" data-toggle="collapse" role="button"
+                  aria-expanded="false" aria-controls="collapseIrrigation">Découvrez en plus</a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img">
+                <img src="image/portfolio/cc.jpg" alt="" class="img-fluid">
+                <div class="logo-container">	<i class="fas fa-city"
+                    style="height : 45px;width: 50px; color:#000033;"> </i></div>
+              </div>
+              <h2 class="title colored-title">INDUSTRIE 4.0</h2>
+              <p class="sub-title">
+                Contrôler Vos Machines à Distance! 
+              </p>
+			  
+              <div class="collapse collapseMobile" id="collapseControlMobile">
+                <p>
+                  TEKNICZ-THERMO-CONNECT est un service Internet qui surveille vos réfrigérateurs, chambres froides, laboratoires... 
+				  Il utilise les sondes de température sur wifi et vous prévient par Email, SMS, Telegram et Sirène en cas de 
+				  dépassement de température.Pas de logiciel à installer sur vos PC. Un login et un mot de passe vous suffisent 
+				
+                </p>
+              </div>
+              <div class="text-center">
+                <a id="collapseControl" class="btn-collapse" data-toggle="collapse" role="button" aria-expanded="false"
+                  aria-controls="collapseControl">Découvrez en plus</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Desktop Collapses of SMART CONTROL & SMART IRRIGATIONS -->
+
+          <div class="col-md-12 collapse collapseDesktop" id="collapseIrrigationDesktop">
+            <div class="text-right">
+              <button id="close-irrigation" class="close-button"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <p>
+                  <span class="app-name">TEKNICZ-THERMO-CONNECT</span> est un service Internet qui surveille vos 
+				  réfrigérateurs, chambres froides, laboratoires... Il utilise les sondes de température sur wifi
+				  et vous prévient par Email, SMS, Telegram et Sirène en cas de dépassement de température.
+                  Pas de logiciel à installer sur vos PC. Un login et un mot de passe vous suffisent pour accéder 
+				  à votre plateforme de surveillance, paramétrer vos sondes et vos enregistreurs, vos seuils d'alarmes 
+				  et consulter toutes les données enregistrées sous  plusieurs formes (listes ou de plans ou de tableau de bord.
+				  Vous accédez à votre plateforme depuis n'importe quel PC Mac, smartphone ou tablette, sans limite du nombre
+				  d'utilisateur, 24h/24, 7j/7.Vous pouvez utiliser TEKNICZ-THERMO-CONNECT sur plusieurs sites. 
+                </p>
+              </div>
+              <div class="col-md-6 text-center">
+               <iframe class="image" width="500" height="300"
+                    src="image/portfolio/temp.png" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          </div>
+
+
+          <div class="col-md-12 collapse collapseDesktop" id="collapseControlDesktop">
+            <div class="text-right">
+              <button id="close-control" class="close-button"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <p>
+                  <span class="app-name">Industrie 4.0</span> consiste à sécuriser l’emmagasinage des produits
+                  alimentaires dans les entrepôts frigorifiques. En effet notre kit électronique converti des
+                  indicateurs de performances, généralement des grandeurs physiques telles que la température, le taux
+                  d’humidité en des Data Cloud accessibles à distance sur une base de données. L’utilisateur peut
+                  surveiller son espace à distance sur une plateforme web à travers l’internet. En cas d’anomalie,
+                  instantanément il reçoit une alerte afin de réagir le plus rapide possible.
+                </p>
+              </div>
+              <div class="col-md-6 text-center">
+                <img class="youtube-frame" width="240" height="240" src="img/smart-control.png"></img>
+              </div>
+            </div>
+          </div>
+		  
+		 
+		  
+		  
+          <!-- END of Desktop collapses SMART CONTROL & SMART IRRIGATIONS-->
+
+          <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="image/portfolio/domo.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="fas fa-eye"></i></div>
+              </div>
+              <h2 class="title colored-title">Domotique</h2>
+              <p class="sub-title">
+                Avoir une maison connectée n'est plus un rêve!
+              </p>
+              <div class="collapseMobile collapse" id="collapseMonitoringMobile">
+                <p>
+                  L’industrie 4.0 est une réorganisation complète du mode de production avec les outils existants et
+                  donnant une plus grande importance au réseau.
+                  Cette nouvelle génération d’usines a pour objectif de relancer le dynamisme de l’industrie.
+                  Notre solution SMART Monitoring est une combinaison de capteurs, automates,
+                  Big data, Internet des objets, cloud computing ayant pour objectif de modernisation de la production,
+                  augmentation de la compétitivité, positionnement face aux enjeux de la mondialisation.
+                  La solution contient plusieurs kits électroniques installés soit directement sur les machines
+                  principales
+                  de productions ou bien au niveau des postes opérateurs.
+                  Grace à ces systèmes connectés, nous pouvons extraire en temps réel des statistiques
+                  et des informations jugées nécessaires pour superviser la chaine de production.
+                  Tous les Data collectés peuvent être visualisés en ligne via l’internent soit dans la salle de
+                  contrôle soit à l’extérieur de l’usine.
+                </p>
+              </div>
+              <div class="text-center">
+                <a id="collapseMonitoring" class="btn-collapse" data-toggle="collapse" role="button"
+                  aria-expanded="false" aria-controls="collapseMonitoring">Découvrez en plus</a>
+              </div>
+            </div>
+          </div>
+          
+
+          <!-- Collapses of Monitoring and Collect -->
+
+
+          <!-- <div class="col-md-12 collapse collapseDesktop" id="collapseMonitoringDesktop">
+            <div class="text-right">
+              <button id="close-monitoring" class="close-button"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="row">
+              <p>
+                L’industrie 4.0 est une réorganisation complète du mode de production avec les outils existants et
+                donnant une plus grande importance au réseau.
+                Cette nouvelle génération d’usines a pour objectif de relancer le dynamisme de l’industrie.
+                Notre solution <span class="app-name">SMART Monitoring</span> est une combinaison de capteurs,
+                automates,
+                Big data, Internet des objets, cloud computing ayant pour objectif de modernisation de la production,
+                augmentation de la compétitivité, positionnement face aux enjeux de la mondialisation.
+                La solution contient plusieurs kits électroni
+				ques installés soit directement sur les machines
+                principales
+                de productions ou bien au niveau des postes opérateurs.
+                Grace à ces systèmes connectés, nous pouvons extraire en temps réel des statistiques
+                et des informations jugées nécessaires pour superviser la chaine de production.
+                Tous les Data collectés peuvent être visualisés en ligne via l’internent soit dans la salle de contrôle
+                soit à l’extérieur de l’usine.
+              </p>
+              <!--<div class="col-md-6">
+                          <p>
+                              Description détaillé de SMART Monitoring.
+                          </p>
+                      </div>
+                      <div class="col-md-6 text-center">
+                          <img class="youtube-frame" width="240" height="240" src="img/intro-carousel/1.jpg"></img>
+                
+            </div>
+          </div>
+
+
+ -->
+          <!-- <div class="col-md-12 collapse collapseDesktop" id="collapseCollectDesktop">
+            <div class="text-right">
+              <button id="close-collect" class="close-button"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <p>
+                  La production annuelle de déchets ménagers en Tunisie est estimée à 3 millions de tonnes/an.
+                  Malheureusement plus que 1,4 million de tonnes/an finissent dans des décharges anarchiques ! Pour
+                  lutter contre la
+                  pollution, préserver l’environnement
+                  et améliorer les conditions de vie d’une catégorie marginalisée, les chiffonniers « BERBECHA »,
+                  nous proposons une solution du tri précoce de déchets ménagers.
+                  Grâce à notre Platform WEB et Mobile <span class="app-name">SMART COLLECT</span>
+                  la récupération des déchets est devenu un art. Après avoir trié vos déchets selon notre standard,
+                  il suffit de faire un simple clic pour recevoir l’un de nos agents pour récupérer ces produits.
+                  Afin d’encourager et récompenser les utilisateurs de notre plateforme,
+                  après la bonne exécution de chaque opération l'utilisateur reçoit une somme de points MERCI
+                  convertible en bon d’achats auprès des grandes surfaces commerciales !
+                </p>
+              </div>
+              <div class="col-md-6 text-center">
+                <iframe class="youtube-frame mt-4 text-center" width="500" height="300"
+                  src="https://www.youtube.com/embed/ozAvbZ-GHFw" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div> -->
+
+
+          <!-- End of collapses Monitoring and Collect-->
+
+
+
+
+        <!--   <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/health-card.png" alt="" class="img-fluid">
+                <div class="logo-container"><img class="logo-image" src="img/smart-healthcare.png" alt=""
+                    style="height : 45px;width: 40px;"></div>
+              </div>
+              <h2 class="title colored-title">SMART HEALTHCARE</h2>
+              <p class="sub-title">
+                Solution innovante pour la 'santé numérique'
+              </p>
+              <div class="collapse collapseMobile" id="collapseHealthcareMobile">
+                <p>
+                  Après l’hospitalisation, les bébés et les personnes âgées ont souvent besoin d’un suivi médical et
+                  paramédical particulier afin de dépister d’éventuels situations critiques et de commencer les
+                  traitements nécessaires. Plusieurs paramètres vitaux, doivent être surveiller soigneusement. En cas
+                  d’anomalie et afin de minimiser les dégâts, le dépassement des seuils nominaux doit être détecté le
+                  rapide possible. Notre solution SMART Healthcare consiste à convertir ces indicateurs de performances,
+                  généralement des grandeurs physiques telles que la température, la fréquence cardiaque et le rythme
+                  respiratoire en des Data Cloud accessibles à distance sur une base de données sécurisée. Ceci en
+                  installant notre kit électronique intelligent au près du patient. Le staff médical peut surveiller le
+                  patient à distance via une application mobile à travers l’internet ou bien à travers une plateforme
+                  WEB. En cas d’anomalie, instantanément il reçoit une alerte afin de réagir le plus rapide possible.
+                  Grâce à cette solution, le staff médical aura une meilleure visibilité de l’état des patients et il
+                  peut garder une traçabilité de la période d’hospitalisation du patient.
+                </p>
+              </div>
+              <div class="text-center">
+                <a id="collapseHealthcare" class="btn-collapse" data-toggle="collapse" role="button"
+                  aria-expanded="false" aria-controls="collapseHealthcare">Découvrez en plus</a>
+              </div>
+            </div>
+          </div>
+ -->
+          <!-- Collapse of healthcare-->
+
+         <!--  <div class="col-md-12 collapse collapseDesktop" id="collapseHealthcareDesktop">
+            <div class="text-right">
+              <button id="close-healthcare" class="close-button"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="row">
+              <p>
+                Après l’hospitalisation, les bébés et les personnes âgées ont souvent besoin d’un suivi médical et
+                paramédical particulier afin de dépister d’éventuels situations critiques et de commencer les
+                traitements nécessaires. Plusieurs paramètres vitaux, doivent être surveiller soigneusement. En cas
+                d’anomalie et afin de minimiser les dégâts, le dépassement des seuils nominaux doit être détecté le
+                rapide possible. Notre solution <span class="app-name">SMART Healthcare</span> consiste à convertir ces
+                indicateurs de performances, généralement des grandeurs physiques telles que la température, la
+                fréquence cardiaque et le rythme respiratoire en des Data Cloud accessibles à distance sur une base de
+                données sécurisée. Ceci en installant notre kit électronique intelligent au près du patient. Le staff
+                médical peut surveiller le patient à distance via une application mobile à travers l’internet ou bien à
+                travers une plateforme WEB. En cas d’anomalie, instantanément il reçoit une alerte afin de réagir le
+                plus rapide possible. Grâce à cette solution, le staff médical aura une meilleure visibilité de l’état
+                des patients et il peut garder une traçabilité de la période d’hospitalisation du patient.
+              </p>
+              <!--<div class="col-md-6">
+                      <p>
+                          Description détaillé de SMART HEALTHCARE.
+                      </p>
+                  </div>
+                  <div class="col-md-6 text-center">
+                      <img class="youtube-frame" width="240" height="240" src="img/intro-carousel/5.jpg"></img>
+                  </div
+            </div>
+          </div> -->
+
+
+        </div>
+
+      </div>
+    </section><!-- #services -->
+
+    <!--==========================
+      Call To Action Section
+    ============================-->
+   <!-- #call-to-action -->
+
+    <!--==========================
+      Skills Section
+    ============================-->
+    <!--
+    <section id="skills">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Notre compétences</h3>
+          <p>description de compétence</p>
+        </header>
+
+        <div class="skills-content">
+
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">HTML <i class="val">100%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">CSS <i class="val">90%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">Photoshop <i class="val">55%</i></span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>-->
+
+    <!--==========================
+      Facts Section
+    ============================-->
+    <section id="facts" class="wow fadeIn" style="background-image: url('image/portfolio/facts.jpg');" >
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Statistiques</h3>
+          <p>
+            <!-- Petite description des statistiques-->
+          </p>
+        </header>
+
+        <div class="row counters" id="stats">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span class="counter-up" data-count="4">0</span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span class="counter-up" data-count="5">0</span>
+            <p>Projets</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span class="counter-up" data-count="816">0</span>
+            <p>Heures de travail</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span class="counter-up" data-count="8">0</span>
+            <p>Hard Workers</p>
+          </div>
+
+        </div>
+
+        <!--<div class="facts-img">
+          <img src="img/facts-img.png" alt="" class="img-fluid">
+        </div>-->
+
+      </div>
+    </section><!-- #facts -->
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio" class="section-bg">
+      <div class="container" style="padding-bottom:0px;margin-bottom:0px;">
+
+        <header class="section-header">
+          <h3 class="section-title">Notre Portfolio</h3>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <!--<li data-filter="*" class="filter-active">Tout</li>
+              <li data-filter=".filter-app">App</li>
+              
+              <li data-filter=".filter-web">Web</li>
+              
+              <li data-filter=".filter-card">Card</li>
+              
+              <li data-filter=".filter-events">Evènements</li>-->
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <span class="helper"></span>
+                <img src="img/portfolio/events/1.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/events/1.jpg" data-lightbox="portfolio" data-title="Cérémonie total"
+                  class="link-preview" title="Aperçu"><i class="fas fa-eye"></i></a>
+                <a href="https://www.youtube.com/watch?v=s9o95JmZWsY" target="_blank" class="link-details"
+                  title="Voir le lien"><i class="fas fa-external-link-square-alt"></i></a>
+              </figure>
+              <div class="portfolio-info">
+                <div class="collapse" id="collapsePortfolio1">
+                  <p>Conférence de presse lors de la cérémonie des remises des prix du Startupper of the year by Total.
+                  </p>
+                </div>
+                <div class="portfolio-icon">
+                  <a class="btn-collapse btn-collapse-1 float-right" data-toggle="collapse" href="#collapsePortfolio1"
+                    title="Lire plus de détails" role="button" aria-expanded="false"
+                    aria-controls="collapsePortfolio1">Détails <i class="fas fa-arrow-down"></i></a>
+
+                  <a href="https://www.youtube.com/watch?v=s9o95JmZWsY" target="_blank" class="link-details float-left"
+                    title="Voir le lien">Lien <i class="fas fa-external-link-square-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-events wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <span class="helper"></span>
+                <img src="img/portfolio/events/9.png" class="img-fluid" alt="">
+                <a href="img/portfolio/events/9.png" data-lightbox="portfolio" data-title="Prix Total"
+                  class="link-preview" title="Aperçu"><i class="fas fa-eye"></i></a>
+                <a href="https://www.youtube.com/watch?v=tnDy1FXt5RY" target="_blank" class="link-details"
+                  title="Voir le lien"><i class="fas fa-external-link-square-alt"></i></a>
+              </figure>
+              <div class="portfolio-info">
+                <div class="collapse" id="collapsePortfolio9">
+                  <p>SMART LOGGER a remporté le premier prix du challenge Startupper of the year by Total.</p>
+                </div>
+                <div class="portfolio-icon">
+                  <a class="btn-collapse btn-collapse-9 float-right" data-toggle="collapse" href="#collapsePortfolio9"
+                    title="Lire plus de détails" role="button" aria-expanded="false"
+                    aria-controls="collapsePortfolio9">Détails <i class="fas fa-arrow-down"></i></a>
+                  <a href="https://www.youtube.com/watch?v=tnDy1FXt5RY" target="_blank" class="link-details float-left"
+                    title="Voir le lien">Lien <i class="fas fa-external-link-square-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-events wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <span class="helper"></span>
+                <img src="img/portfolio/events/8.png" class="img-fluid" alt="">
+                <a href="img/portfolio/events/8.png" data-lightbox="portfolio" data-title="Prix Total ts"
+                  class="link-preview" title="Aperçu"><i class="fas fa-eye"></i></a>
+                <a href="https://www.total.tn/total-tunisie-annonce-les-gagnants-du-challenge-startupper-de-lannee-par-total"
+                  target="_blank" class="link-details" title="Voir le lien"><i
+                    class="fas fa-external-link-square-alt"></i></a>
+              </figure>
+              <div class="portfolio-info">
+                <div class="collapse" id="collapsePortfolio8">
+                  <p>Cérémonie de remise des prix du challenge Startupper of the year by Total.</p>
+                </div>
+                <div class="portfolio-icon">
+                  <a class="btn-collapse btn-collapse-8 float-right" data-toggle="collapse" href="#collapsePortfolio8"
+                    title="Lire plus de détails" role="button" aria-expanded="false"
+                    aria-controls="collapsePortfolio8">Détails <i class="fas fa-arrow-down"></i></a>
+                  <a href="https://www.total.tn/total-tunisie-annonce-les-gagnants-du-challenge-startupper-de-lannee-par-total"
+                    target="_blank" class="link-details float-left" title="Voir le lien">Lien <i
+                      class="fas fa-external-link-square-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-events wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <span class="helper"></span>
+                <img src="img/portfolio/events/12.jpeg" class="img-fluid" alt="">
+                <a href="img/portfolio/events/12.jpeg" data-lightbox="portfolio"
+                  data-title="Startupper of the year Total" class="link-preview" title="Aperçu"><i
+                    class="fas fa-eye"></i></a>
+                <a href="https://www.facebook.com/435148956559759/posts/2480573012017333/" target="_blank"
+                  class="link-details" title="Voir le lien"><i class="fas fa-external-link-square-alt"></i></a>
+              </figure>
+              <div class="portfolio-info">
+                <div class="collapse" id="collapsePortfolio12">
+                  <p>Présentation de SMART LOGGER lors de la journée de pitch du challenge Startupper of the year by
+                    Total.</p>
+                </div>
+                <div class="portfolio-icon">
+                  <a class="btn-collapse btn-collapse-12 float-right" data-toggle="collapse" href="#collapsePortfolio12"
+                    title="Lire plus de détails" role="button" aria-expanded="false"
+                    aria-controls="collapsePortfolio12"> Détails <i class="fas fa-arrow-down"></i></a>
+                  <a href="https://www.facebook.com/435148956559759/posts/2480573012017333/" target="_blank"
+                    class="link-details float-left" title="Voir le lien">Lien <i
+                      class="fas fa-external-link-square-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-events wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <span class="helper"></span>
+                <img src="img/portfolio/events/5.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/events/5.jpg" data-lightbox="portfolio"
+                  data-title="Premier prix du concours green tic" class="link-preview" title="Aperçu"><i
+                    class="fas fa-eye"></i></a>
+                <a href="http://www.siat.tn/presentation-du-concours-green-tic.html" class="link-details"
+                  target="_blank" title="Voir le lien"><i class="fas fa-external-link-square-alt"></i></a>
+              </figure>
+              <div class="portfolio-info">
+                <div class="collapse" id="collapsePortfolio5">
+                  <p>SMART LOGGER a remporté le premier prix du concours national green tic.</p>
+                </div>
+                <div class="portfolio-icon">
+                  <a class="btn-collapse btn-collapse-5 float-right" data-toggle="collapse" href="#collapsePortfolio5"
+                    title="Lire plus de détails" role="button" aria-expanded="false"
+                    aria-controls="collapsePortfolio5">Détails <i class="fas fa-arrow-down"></i></a>
+                  <a href="http://www.siat.tn/presentation-du-concours-green-tic.html" target="_blank"
+                    class="link-details float-left" title="Voir le lien">Lien <i
+                      class="fas fa-external-link-square-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-events wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <span class="helper"></span>
+                <img src="img/portfolio/events/11.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/events/11.jpg" data-lightbox="portfolio"
+                  data-title="Remise des prix smart agriculture" class="link-preview" title="Aperçu"><i
+                    class="fas fa-eye"></i></a>
+                <a href="https://www.youtube.com/watch?v=T0ffZn-JVB8&t=40s" target="_blank" class="link-details"
+                  title="Voir le lien"><i class="fas fa-external-link-square-alt"></i></a>
+              </figure>
+              <div class="portfolio-info">
+                <div class="collapse" id="collapsePortfolio11">
+                  <p>SMART LOGGER a remporté le premier prix du hackathon SMART Agriculture SIAMAP 2017.</p>
+                </div>
+                <div class="portfolio-icon">
+                  <a class="btn-collapse btn-collapse-11 float-right" data-toggle="collapse" href="#collapsePortfolio11"
+                    title="Lire plus de détails" role="button" aria-expanded="false"
+                    aria-controls="collapsePortfolio11">Détails <i class="fas fa-arrow-down"></i></a>
+                  <a href="https://www.youtube.com/watch?v=T0ffZn-JVB8&t=40s" target="_blank"
+                    class="link-details float-left" title="Voir le lien">Lien <i
+                      class="fas fa-external-link-square-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+
+         
+
+         
+
+    
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+    <!--==========================
+      Partners Section
+    ============================-->
+    <!-- <section id="clients" class="wow fadeInUp"> 
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Nos partenaires</h3>
+        </header>
+
+        <div class="owl-carousel clients-carousel">
+          <img src="img/partners/apia.png" alt="">
+          <img src="img/partners/giz.png" alt="">
+          <img src="img/partners/iot.png" alt="">
+          <img src="img/partners/total.png" alt="">
+          <img src="img/partners/wsa.png" alt="">
+          <img src="img/partners/elgazala.png" alt="">
+        </div>
+
+      </div>
+    </section>--> 
+	<!-- #Partners -->
+
+    <!--==========================
+      Clients Section
+    ============================-->
+    <!--<section id="testimonials" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Testimonials</h3>
+        </header>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+            <h3>Saul Goodman</h3>
+            <h4>Ceo &amp; Founder</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+              quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
+            <h3>Sara Wilsson</h3>
+            <h4>Designer</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+              quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
+            <h3>Jena Karlis</h3>
+            <h4>Store Owner</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor
+              labore quem eram duis noster aute amet eram fore quis sint minim.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
+            <h3>Matt Brandon</h3>
+            <h4>Freelancer</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim
+              dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+              labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>-->
+    <!-- #testimonials -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <!--<section id="team">
+      <div class="container">
+        <div class="section-header wow fadeInUp">
+          <h3>Équipe</h3>
+          <p>Petite description de l'équipe</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="img/team-1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img/team-2.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="img/team-3.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/team-4.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>-->
+    <!-- #team -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container" >
+
+        <div class="section-header"  style="padding-top:0px;margin-top:-10px;">
+          <h3>Contactez Société des travaux techniques</h3>
+          <div class="row text-center">
+            <div class="col-sm-12 col-md mb-sm-2 mb-0">
+             
+              <p>N'hésitez pas à nous contacter pour toutes informations complémentaires. Nous serions très heureux de
+                recevoir et traiter votre consultation.</p>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="row contact-info">
+          
+         
+		  <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="contact-address">
+             <i class="fas fa-map-marker-alt" style="color:rgb(51,102,255) ; font-size:30px;" ></i>
+              <h3  style="color:#000">Adresse </h3>
+              <address>Cyberparc DJERBA, avenue Charles de Gaulle ,
+                bureau 23</address>
+            </div>
+          </div>
+
+         
+		  <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="contact-phone">
+             <i class="fas fa-phone" style="color:rgb(51,102,255); font-size:30px;"></i>
+              <h3 style="color:#000">TÉLÉPHONE</h3>
+              <p><a href="tel:+21652017986">+(216) 21 738 306</a></p>
+              <p><a href="tel:+21692469629">+(216) 51 254 248</a></p>
+            </div>
+          </div>
+
+          
+		  <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="contact-email">
+              <i class="fas fa-envelope" style="color:rgb(51,102,255) ; font-size:30px;"></i>
+              <h3 style="color:#000">Email</h3>
+              <p><a href="mailto:contact@societeTT.tn">contact@societeTT.tn</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div> -->
+
+
+
+      </div>
+    </section><!-- #contact -->
+
+    <!--=========================
+      Google Maps Section-->
+ 
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 footer-info">
+            <img class="img-logo-footer" src="img/smartloggerlogo-horizontal.png" alt="SMART LOGGER LOGO"
+              title="SMART LOGGER" />
+            <p><strong> TEKNICZ</strong> Une startup tunisienne.Une expérience de deux ans dans le 
+		  développement des solutions embarquées d'automatisation.Nous offrons des services optimisées
+		  selon vos besoins dans plusieurs secteurs.
+          </p>
+          </div>
+
+          <!--<div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Services</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>-->
+
+          <div class="col-lg-6 col-md-6 footer-contact">
+            <h4>Nous contactez</h4>
+            <p>
+              <strong>Adresse: </strong><span class="footer-address">CyberParc DJERBA, bureau 23, avenue Charles
+                de Gaulle, Tunisie.</span><br>
+              <strong>Téléphone: </strong> +(216) 21 738 306<br>
+              <strong>Email: </strong> contact@societeTT.tn<br>
+            </p>
+
+          </div>
+
+          <!--<div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit"  value="Subscribe">
+            </form>
+          </div>-->
+
+        </div>
+
+        <div class="social-links text-center">
+          <a href="https://www.facebook.com/SMART.LOGGER.TN/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/SMART_LOGGER" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/company/smart-logger" target="_blank" class="linkedin"><i
+              class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.youtube.com/channel/UC9y0IptiOP64iCvh51C3opA" target="_blank" class="youtube"><i
+              class="fab fa-youtube"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        <strong>STT</strong> 2020 &copy; Tous droits réservés
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"style= "margin-bottom:72px; margin-right:20px"><i class="fas fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+
+
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+
+  <!--<script async defer 
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzJFFcXm6BsGO_Gu7OYCVhlxU2Hs6yA38&callback=initMap">
+  </script>-->
+
+</body>
+
+</html>
